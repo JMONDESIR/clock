@@ -1,0 +1,37 @@
+* {
+  background-color: rgb(20, 20, 20);
+}
+
+.display {
+  font-style: italic;
+  position: absolute;
+  top: 50%;
+  font-family: "Orbitron", sans-serif;
+  color: rgb(198, 243, 204);
+  text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px darkgreen;
+}
+
+#day {
+  top: 30%;
+  font-size: 18px;
+  left: 5%;
+}
+#hour {
+  font-size: 12vw;
+  left: 5%;
+}
+
+#minute {
+  font-size: 10vw;
+  left: 30%;
+}
+
+#second {
+  font-size: 10vw;
+  left: 55%;
+}
+
+#meridiem {
+  left: 75%;
+  font-size: 6vw;
+}
