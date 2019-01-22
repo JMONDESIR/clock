@@ -38,10 +38,10 @@ function showTime() {
     day = "Saturday";
   }
 
-  document.getElementById("day").innerHTML = day;
-  document.getElementById("hour").innerText = h + " " + ":";
-  document.getElementById("minute").innerText = m + " " + ":";
-  document.getElementById("second").innerText = s + " ";
-  document.getElementById("meridiem").innerText = meridiem;
+  document.getElementById("day").textContent = day;
+  document.getElementById("hour").textContent = h + " " + ":";
+  document.getElementById("minute").textContent = m + " " + ":";
+  document.getElementById("second").textContent = s + " ";
+  document.getElementById("meridiem").textContent = meridiem;
 }
 setInterval(showTime, 1000);
